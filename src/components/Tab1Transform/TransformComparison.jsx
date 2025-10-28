@@ -32,7 +32,7 @@ const TransformComparison = () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-3xl font-bold gradient-text mb-2"
         >
-          Эффект Синергии: Превращение Обычного Клиента в Платинового
+          Эффект Синергии: Превращение Обычного Клиента в Золотого
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -141,8 +141,8 @@ const TransformComparison = () => {
                 averageCheck: 158,
                 monthlyRevenue: 6000,
                 ltv12Months: 72000,
-                loyaltyLevel: 'Платиновый',
-                loyaltyColor: '#e5e4e2',
+                loyaltyLevel: 'Золотой',
+                loyaltyColor: '#FACC15',
                 activeProducts: 6,
                 loyaltyPoints: 351
               }}
@@ -192,7 +192,7 @@ const TransformComparison = () => {
             className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"
           >
             <div className="glass-card p-4 text-center">
-            <div className="text-2xl mb-1">📈</div>
+              <div className="text-2xl mb-1">📈</div>
               <div className="text-green-400 font-bold text-lg">
                 <CountUp end={322} suffix="%" duration={2} />
               </div>
